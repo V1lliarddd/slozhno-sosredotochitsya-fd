@@ -40,3 +40,38 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+.font-bold {
+  font-family: "IBM Plex mono";
+  font-weight: bold;
+}
+.font-medium {
+  font-family: "IBM Plex mono";
+  font-weight: normal;
+}
+
+.section__title {
+  color: var(--title-decor);
+  font-size: 18px;
+}
+
+.article {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.article__title {
+  background-color: var(--title-decor);
+  color: #000028;
+  width: 100%;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.article__info {
+  font-size: 18px;
+  color: var(--main-paragraph-text-color);
+  line-height: 23.4px;
+}

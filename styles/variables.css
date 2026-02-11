@@ -1,4 +1,11 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --header-offset: 20px;
+  --header-font-size-medium-large: clamp(
+    7.5rem,
+    0.5625rem + 14.4531vw,
+    9.8125rem
+  );
+  --header-font-size-small-medium: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-decor: #ff0070;
+  --main-paragraph-text-color: #f1b2ce;
+}
