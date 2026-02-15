@@ -10,6 +10,7 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  padding: 0;
 }
 
 h1,
@@ -120,6 +121,10 @@ a {
 a.text-accent:hover {
   text-decoration: underline;
   text-decoration-color: var(--text-accent-interaction-color);
+}
+
+a:focus {
+  outline: none;
 }
 
 a.text-accent:focus-visible {
