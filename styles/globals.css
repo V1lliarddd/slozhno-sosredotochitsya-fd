@@ -81,7 +81,7 @@ a {
 }
 
 .section__title {
-  color: var(--title-decor);
+  color: var(--section-title);
   font-size: 18px;
 }
 

@@ -1,6 +1,6 @@
 :root {
-  --background-image: url("../images/cover-image-dark.png");
-  --header-offset: 20px;
+  --padding-offset: 20px;
+  --padding-offset-mobile: 10px;
   --header-pseudo-vertical-offset: 40px;
   --header-font-size-medium-large: clamp(
     7.5rem,
@@ -8,12 +8,14 @@
     9.8125rem
   );
   --header-font-size-small-medium: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --accent-color: #ff0070;
-  --title-decor: #ff0070;
-  --main-paragraph-text-color: #f1b2ce;
-  --text-accent-interaction-color: #f1b2ce;
   --margin-block-end-large: 80px;
   --margin-block-end-mid: 60px;
   --margin-block-end-small: 40px;
   --title-pseudo-size: 25px;
+  /* Переменные темной темы */
+  --background-image: url("../images/cover-image-dark.png");
+  --main-paragraph-text-color: #f1b2ce;
+  --text-accent-interaction-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --title-decor: #ff0070;
 }
