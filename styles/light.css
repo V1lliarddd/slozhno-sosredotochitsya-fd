@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --background-image: url("../images/cover-image-light.png");
   --main-paragraph-text-color: #353430;
@@ -11,13 +5,10 @@
   --accent-color: #ff8dcb;
   --title-decor: #ff8dcb;
   --section-title: #353430;
+  --title-text-color: #ffc2e6;
 }
 :root.theme-light .header__dark-theme-accent,
-:root.theme-light .header__dark-theme-accent::after,
-:root.theme-light .header__title::before,
-:root.theme-light .footer__title::before,
-:root.theme-light .header__title::after,
-:root.theme-light .footer__title::after {
+:root.theme-light .header__dark-theme-accent::after {
   display: none;
 }
 
@@ -29,5 +20,6 @@
     --accent-color: #ff8dcb;
     --title-decor: #ff8dcb;
     --section-title: #353430;
+    --title-text-color: #ffc2e6;
   }
 }

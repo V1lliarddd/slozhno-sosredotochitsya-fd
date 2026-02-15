@@ -12,10 +12,12 @@
   --margin-block-end-mid: 60px;
   --margin-block-end-small: 40px;
   --title-pseudo-size: 25px;
+  --font-family: "IBM Plex mono", "Courier New", Courier, monospace;
   /* Переменные темной темы */
   --background-image: url("../images/cover-image-dark.png");
   --main-paragraph-text-color: #f1b2ce;
   --text-accent-interaction-color: #f1b2ce;
   --accent-color: #ff0070;
   --title-decor: #ff0070;
+  --title-text-color: #db00ff;
 }
