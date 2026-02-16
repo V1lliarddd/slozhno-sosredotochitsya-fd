@@ -6,6 +6,7 @@
   --title-decor: #ff8dcb;
   --section-title: #353430;
   --title-text-color: #ffc2e6;
+  --decorated-zone-pseudo-color: #353430;
 }
 :root.theme-light .header__dark-theme-accent,
 :root.theme-light .header__dark-theme-accent::after {
@@ -21,5 +22,6 @@
     --title-decor: #ff8dcb;
     --section-title: #353430;
     --title-text-color: #ffc2e6;
+    --decorated-zone-pseudo-color: #353430;
   }
 }
